@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Minecraft Bedrock Addons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Minecraft Bedrock Addons!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wiki.html">Wiki</a></li>
+                <li><a href="addons.html">Addons</a></li>
+                <li><a href="resourcepacks.html">Resource Packs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="category">
+            <h2>Featured Addons</h2>
+            <div class="addon">
+                <h3>Addon Title 1</h3>
+                <p>Description of your addon goes here.</p>
+                <p>Downloads: <span id="downloads-addon1">0</span></p>
+                <button onclick="downloadAddon('addon1')">Download Addon 1</button>
+            </div>
+
+            <div class="addon">
+                <h3>Addon Title 2</h3>
+                <p>Description of your addon goes here.</p>
+                <p>Downloads: <span id="downloads-addon2">0</span></p>
+                <button onclick="downloadAddon('addon2')">Download Addon 2</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
